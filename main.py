@@ -39,4 +39,6 @@ def get_currency_rates():
 
 if __name__ == "__main__":
     import uvicorn  # pip install uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8080)
+    PORT = int(input("PORT, default 8000: "))
+    HOST = "0.0.0.0"
+    uvicorn.run(app.api: : app, host=HOST, port=PORT, reload=True)
