@@ -1,5 +1,6 @@
-from bs4 import BeautifulSoup
-import requests
+from bs4 import BeautifulSoup  # pip install beautifulsoup4
+import requests  # pip install requests
+
 
 class CurrencyChecker:
     """ Класс для проверки курса валют """
